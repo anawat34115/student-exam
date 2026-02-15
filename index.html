@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pacharada's hobby website featuring drawing, reading, and interactive games">
+    <meta name="keywords" content="hobby, drawing, reading, art, creativity, games">
+    <meta name="author" content="Pacharada">
+    <title>My Hobby Website - Drawing, Reading & Games</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- Side Decorations -->
+<aside class="side left" aria-hidden="true">
+    <div class="decor-box"></div>
+</aside>
+<aside class="side right" aria-hidden="true">
+    <div class="decor-box"></div>
+</aside>
+
+<div class="main">
+<header role="banner">
+    <h1>Welcome to My Hobby Website</h1>
+    <p>A place where I share what I love - art, literature, and creativity</p>
+</header>
+
+<nav role="navigation" aria-label="Main navigation">
+    <a href="index.html" class="active" aria-current="page">Home</a>
+    <a href="hobby.html">Drawing</a>
+    <a href="hobby2.html">Reading</a>
+    <a href="contact.html">Contact</a>
+    <a href="game.html">Game</a>
+</nav>
+
+<main id="main-content" role="main">
+    <section aria-labelledby="hobbies-heading">
+        <h2 id="hobbies-heading">My Hobbies & Interests</h2>
+        
+        <div class="hobby-grid">
+            <article class="card">
+                <h3>🎨 Drawing</h3>
+                <p>Drawing is my main hobby where I express emotions, creativity, and imagination through various artistic mediums.</p>
+                <p>From pencil sketches to digital art, I love exploring different techniques and styles to bring ideas to life.</p>
+                <a class="btn" href="hobby.html">Explore Drawing</a>
+            </article>
+
+            <article class="card">
+                <h3>📚 Reading</h3>
+                <p>Reading takes me through stories, history, and different worlds that expand my imagination and knowledge.</p>
+                <p>I enjoy various genres including fiction, biographies, and art books that inspire my creative journey.</p>
+                <a class="btn" href="hobby2.html">Explore Reading</a>
+            </article>
+
+            <article class="card">
+                <h3>🎮 Games</h3>
+                <p>Test your memory with our interactive matching game! Challenge yourself and have fun with this engaging brain teaser.</p>
+                <p>Perfect for exercising your mind while enjoying colorful animations and smooth gameplay.</p>
+                <a class="btn" href="game.html">Play Game</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- <section aria-labelledby="featured-heading">
+        <h2 id="featured-heading">Featured Works</h2>
+        
+        <div class="multimedia-container">
+            <div class="media-item">
+                <img src="/Img/img7.jpg" alt="Artistic background image with purple and blue tones" loading="lazy">
+                <div class="media-caption">
+                    <h3>Creative Background</h3>
+                    <p>A beautiful blend of colors that inspires creativity and imagination in all my artistic endeavors.</p>
+                </div>
+            </div>
+            
+            <div class="media-item">
+                <img src="/Img/minato.jpg" alt="Character artwork featuring Minato" loading="lazy">
+                <div class="media-caption">
+                    <h3>Character Art</h3>
+                    <p>One of my favorite character designs showcasing attention to detail and emotional expression.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills & Techniques</h2>
+        
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Skill Category</th>
+                        <th scope="col">Techniques</th>
+                        <th scope="col">Experience Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Drawing</td>
+                        <td>Pencil, Digital Art, Watercolor</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>Reading</td>
+                        <td>Fiction, Non-fiction, Art Books</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Creative Writing</td>
+                        <td>Stories, Poetry, Blog Posts</td>
+                        <td>Intermediate</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Continuously learning and improving all skills through practice and dedication</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+</main>
+
+<footer role="contentinfo">
+    <p>&copy; 2025 Pacharada's | Created with ❤️ and passion for creativity</p>
+    <p>Last updated: <time datetime="2025-02-15">February 15, 2025</time></p>
+</footer>
+</div>
+
+<script src="page-transitions.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
